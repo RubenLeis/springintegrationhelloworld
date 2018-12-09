@@ -32,8 +32,7 @@ public class OnlineShop {
 		
 		log.debug("*** [OnlineShop] ****");
 		shop.placeOrder(order);
-		
-		context.close();
+
 	}
 
 	/*
