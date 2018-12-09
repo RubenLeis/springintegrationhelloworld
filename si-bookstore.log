@@ -1,0 +1,19 @@
+2018-12-09 14:45:34,081 DEBUG [OnlineShop] - Order: Order [orderId=0] 
+item: Of Mice & Men quantity : 1 price: 100.00 total price: 100.00
+item: Off the Wall quantity : 1 price: 100.00 total price: 100.00
+item: Mavericks quantity : 1 price: 100.00 total price: 100.00
+total price: 300.00
+2018-12-09 14:45:34,081 DEBUG [OnlineShop] - *** [OnlineShop] ****
+2018-12-09 14:45:34,091 DEBUG [OrderSplitter] - *** [OrderSplitter] splitting Order into it's constituent OrderItems : number of OrderItems: 3 ****
+2018-12-09 14:45:34,099 DEBUG [OrderItemRouter] - *** [OrderItemRouter] ****
+2018-12-09 14:45:34,099 DEBUG [OrderItemRouter] - *** [OrderItemRouter] sending item : Of Mice & Men to bookItemsChannel ****
+2018-12-09 14:45:34,099 DEBUG [OrderItemRouter] - *** [OrderItemRouter] ****
+2018-12-09 14:45:34,100 DEBUG [OrderItemRouter] - *** [OrderItemRouter] sending item : Off the Wall to musicItemsChannel ****
+2018-12-09 14:45:34,100 DEBUG [Shopkeeper] - *** [Shopkeeper] processing book : Of Mice & Men ****
+2018-12-09 14:45:34,100 DEBUG [Shopkeeper] - *** [Shopkeeper] processing music : Off the Wall ****
+2018-12-09 14:45:34,100 DEBUG [OrderItemRouter] - *** [OrderItemRouter] ****
+2018-12-09 14:45:34,100 DEBUG [OrderItemRouter] - *** [OrderItemRouter] sending item : Mavericks to softwareItemsChannel ****
+2018-12-09 14:45:34,100 DEBUG [Shopkeeper] - item (MusicCD: Off the Wall) item price: 100.00 discount: 10.00 final price: 90.00
+2018-12-09 14:45:34,100 DEBUG [Shopkeeper] - item (Book: Of Mice & Men) item price: 100.00 discount: 5.00 final price: 95.00
+2018-12-09 14:45:34,104 DEBUG [Shopkeeper] - *** [Shopkeeper] processing software : Mavericks ****
+2018-12-09 14:45:34,104 DEBUG [Shopkeeper] - item (Software: Mavericks) item price: 100.00 discount: 15.00 final price: 85.00
